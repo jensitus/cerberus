@@ -6,15 +6,17 @@
     <coordinates>
       <x>50</x>
       <y>570</y>
-      <w>140</w>
+      <w>150</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>User
-bg=red
+bg=#11dd88
 --
 -id : int
 -username : String
 -password : String
+--
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -24,16 +26,19 @@ bg=red
       <x>240</x>
       <y>570</y>
       <w>140</w>
-      <h>110</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>Post
 bg=orange
 --
--id
--title
--body
--userId
-</panel_attributes>
+-id : int
+-title : String
+-body : String
+-userId : int
+--
+Konstruktor
+Getter
+Setter</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -58,16 +63,16 @@ bg=green
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>160</x>
+      <x>170</x>
       <y>540</y>
-      <w>100</w>
+      <w>90</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=-
 
 1:n
 </panel_attributes>
-    <additional_attributes>80;50;30;50</additional_attributes>
+    <additional_attributes>70;50;30;50</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
